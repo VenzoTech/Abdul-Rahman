@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  color: #40514e;
+}
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Dancing Script", cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.25rem;
+  color: #66bfbf;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+    font-family: "Ubuntu", sans-serif;
+    color: #11999e;
+  }
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: #eaf6f6 dotted 10px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+button {
+  font-size: 30px;
+  border-radius: 8px;
+  background-image: -webkit-linear-gradient(#11cdd4, #11999e);
+}
+
+button:hover {
+  background-image: -webkit-linear-gradient(#30e3cb, #2bc4ad);
+}
+a {
+  color: #11999e;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  padding-top: 100px;
+  position: relative;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.middle-container {
+  padding: 100px 0;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  color: white;
+  padding: 60px 0 20px;
+}
+
+.p1 {
+    border-radius: 50%;
+    width: 200px;
+  }
+  
+  .p2 {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+  }
+  .p3 {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+  }
+  
+  img {
+    width: 200px;
+  }
+  .mountain {
+    width: 700px;
+  }
+  .skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+  }
+  .wings {
+    color: #11999e;
+  }
+  .contact-me {
+    width: 40%;
+    margin: 40px auto 60px;
+  }
+
+#topcloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+#bottomcloud {
+  position: absolute;
+  bottom: 300px;
+  left: 400px;
+}
+
